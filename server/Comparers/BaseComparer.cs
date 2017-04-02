@@ -1,4 +1,6 @@
-﻿namespace NMaier.SimpleDlna.Server.Comparers
+﻿using NMaier.SimpleDlna.Utilities;
+
+namespace NMaier.SimpleDlna.Server.Comparers
 {
   internal abstract class BaseComparer : IItemComparer
   {
