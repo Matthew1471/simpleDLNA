@@ -104,8 +104,7 @@ namespace NMaier.SimpleDlna.Server.Properties {
         ///    &lt;dlna:X_DLNADOC&gt;M-DMS-1.50&lt;/dlna:X_DLNADOC&gt;
         ///    &lt;friendlyName/&gt;
         ///    &lt;deviceType&gt;urn:schemas-upnp-org:device:MediaServer:1&lt;/deviceType&gt;
-        ///    &lt;manufacturer&gt;tn123.org&lt;/manufacturer&gt;
-        ///    &lt;man [rest of string was truncated]&quot;;.
+        ///    &lt;manufacturer&gt;tn123.org&lt;/manufactu [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string description {
             get {

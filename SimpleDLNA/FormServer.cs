@@ -173,8 +173,6 @@ namespace NMaier.SimpleDlna.GUI
       case 2:
         valid = !string.IsNullOrWhiteSpace(re);
         break;
-      default:
-        break;
       }
       if (!valid) {
         errorProvider.SetError(

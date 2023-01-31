@@ -242,7 +242,7 @@ namespace NMaier.Windows.Forms
       var partId = item.IsOnDropDown ?
         (int)MenuParts.PopupItem :
         (int)MenuParts.BarItem;
-      renderer.SetParameters(MenuClass, partId, (int)GetItemState(item));
+      renderer.SetParameters(MenuClass, partId, GetItemState(item));
       return renderer.GetColor(ColorProperty.TextColor);
     }
 
@@ -576,7 +576,7 @@ namespace NMaier.Windows.Forms
     private static class NativeMethods
     {
       [DllImport("uxtheme.dll")]
-      public extern static int GetThemeMargins(
+      public static extern int GetThemeMargins(
         IntPtr hTheme,
         IntPtr hdc,
         int iPartId,

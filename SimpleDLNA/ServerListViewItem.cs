@@ -1,12 +1,12 @@
-using System;
-using System.IO;
-using System.Linq;
-using System.Windows.Forms;
 using log4net;
 using log4net.Core;
 using NMaier.SimpleDlna.FileMediaServer;
 using NMaier.SimpleDlna.Server;
 using NMaier.SimpleDlna.Server.Comparers;
+using System;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace NMaier.SimpleDlna.GUI
 {
